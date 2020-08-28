@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-img-container{
+    width: 100%;
+}
+
+.card-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.card-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 10% 0 10%;
+}
+
+.card-container-text h1{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+
+.card-container-text p{
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(126, 126, 126);
+    margin-bottom: 30px;
+}
+
+.profile-text-section{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 10% 6% 10%;
+}
+
+.profile-container-info{
+    display: flex;
+}
+
+.share-container{
+    height: 49px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 10% 6% 10%;
+    background-color: rgba(53, 65, 99, 0.822);
+}
+
+.share-container span{
+    color: white;
+}
+
+.share-container ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.container-profile-share{
+    height: fit-content;
+    width: fit-content;
+    background-color: hsl(210, 46%, 95%);
+    padding: 2% 2.5%;
+    border-radius: 50%;
+}
+
+.container-profile-share-2{
+    height: fit-content;
+    width: fit-content;
+    background-color: hsla(226, 33%, 68%, 0.973);
+    padding: 2% 2.5%;
+    border-radius: 50%;
+}
+
+.twitter-icon{
+    margin-top: 4.5px;
+}
+
+.info-container-icon{
+    height: fit-content;
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.share-box{
+    background-color: rgb(93, 94, 124);
+}
+
+.share-box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container-icon img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.info-container-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container-name h2{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(100, 100, 100);
+    font-weight: 500;
+}
+
+.info-container-name p{
+    margin: 0;
+}
+
+.info-container-name p small{
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(126, 126, 126);
+    font-weight: 400;
+}
+
+.hidde{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
