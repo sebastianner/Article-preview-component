@@ -24,7 +24,6 @@ body{
 .card-container{
     border-radius: 10px;
     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
-    overflow: hidden;
     background-color: white;
 }
 
@@ -35,6 +34,7 @@ body{
 .card-img-container img{
     width: 100%;
     height: auto;
+    border-radius: 10px 0 0 10px;
 }
 
 .card-container-text{
@@ -73,12 +73,13 @@ body{
     display: flex;
 }
 
-.share-container{
+ .share-container{
     height: 49px;
     justify-content: space-between;
     align-items: center;
     padding: 6% 10% 6% 10%;
     background-color: rgba(53, 65, 99, 0.822);
+    border-radius: 0 0 10px 10px;
 }
 
 .share-container span{
@@ -97,16 +98,29 @@ body{
 
 .desktop-share-container{
     position: absolute;
-    right: 56px;
-    top: 315px;
+    top: -60px;
+    left: -76.5px;
 }
 
 .container-profile-share{
+    position: relative;
     height: fit-content;
     width: fit-content;
     background-color: hsl(210, 46%, 95%);
     padding: 2% 2.5%;
     border-radius: 50%;
+}
+
+.container-profile-share svg{
+    fill: #6E8098;
+}
+
+.dark-bg{
+    background-color: hsla(226, 33%, 68%, 0.973);
+}
+
+.white-svg{
+    fill: white;
 }
 
 .container-profile-share-2{
@@ -171,7 +185,6 @@ body{
 }
 
 .desktop-share-container{
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -203,7 +216,7 @@ body{
     border-top: 10px solid rgb(93, 94, 124);
 }
 
-.hidde{
+.hide{
     display: none;
 }
 

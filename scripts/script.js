@@ -1,30 +1,34 @@
 var myWidth = window.innerWidth
+var profile = document.getElementById('profile')
+var shr_mvl = document.getElementById('share-movile')
+var shr_dkt = document.getElementById('share-desktop')
+var btn_1_svg = document.getElementById('btn-1-svg')
+var btn_1 = document.getElementById('btn-1')
+var btn_2 = document.getElementById('btn-2')
 
 function movile() {
-    var profile = document.getElementById('profile')
-    var shr = document.getElementById('share-links')
-    var btn_1 = document.getElementById('btn-1')
-    var btn_2 = document.getElementById('btn-2')
-    btn_1.addEventListener('click', function(){
-        if (myWidth){
-            profile.classList.add('hidde')
-            shr.classList.replace('hidde','show')
-        }
+    btn_1.addEventListener('click', ()=>{
+            profile.classList.add('hide')
+            shr_mvl.classList.replace('hide','show')
     })
     btn_2.addEventListener('click', function(){
-        if (myWidth){
-            shr.classList.replace('show','hidde')
-            profile.classList.remove('hidde')
-        }
+            shr_mvl.classList.replace('show','hide')
+            profile.classList.remove('hide')
     })
 }
 
 function desktop() {
-    
+    btn_1.addEventListener('click',()=>{
+        if (shr_dkt.style.display==='none') {
+            shr_dkt.style.display = 'flex'
+        }else{
+            shr_dkt.style.display = 'none'
+        }
+    })
 }
 
-if(myWidth<768) {
+if (myWidth<935) {
     movile()
-}else{
+} else {
     desktop()
 }
