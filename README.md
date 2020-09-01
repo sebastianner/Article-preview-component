@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Escuela de Desarrollo Web by Platzi - Article preview component
 
 ![desktop-preview.jpg](https://static.platzi.com/media/user_upload/desktop-preview-948e0f8f-7bf6-42ec-a925-e03f1dde08fd.jpg)
@@ -55,3 +56,7 @@ No dudes en utilizar cualquier flujo de trabajo con el que te sienta más cómod
 ## Créditos por el diseño y reto.
 
 Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io/)
+=======
+# Article-preview-component
+Article preview component challenge by frontend mentor
+>>>>>>> b8c89e2eca3eaf0f8f6066cf641731cd0af222af
