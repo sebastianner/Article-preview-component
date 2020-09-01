@@ -37,6 +37,36 @@
         justify-content: space-between;
     }
 
+    .share-container{
+        bottom: 89px;
+        right: -326px;
+        width: 170px;
+        height: fit-content;
+        padding: 3% 5%;
+        border-radius: 10px;
+    }
+
+    .share-container-content::before{
+        content: '';
+        width: 0; 
+        height: 0; 
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 15px solid rgb(70, 78, 100);
+        margin: -20px;
+        position: relative;
+        bottom: -35px;
+        left: 97px;
+    }
+
+    .share-container-content{
+        margin: 0;
+    }
+
+    .container-profile-share-2{
+        display: none;
+    }
+
     .attribution{
         padding: 0;
     }
